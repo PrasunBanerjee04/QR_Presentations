@@ -1,0 +1,14 @@
+numpy
+pandas
+polars
+scikit-learn
+scipy
+statsmodels
+requests
+matplotlib
+seaborn
+plotly
+xgboost
+lightgbm
+catboost
+tqdm
