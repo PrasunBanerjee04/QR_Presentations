@@ -15,3 +15,10 @@ QR_Presentations/
 │   └── PCAarb.ipynb 
 │         ... 
 ```
+
+Many of the reports in this repository are based on implementing various research papers, all of which are linked below. 
+
+## Papers
+
+- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3235890 
+- 
