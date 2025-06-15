@@ -33,6 +33,8 @@ Statistical arbitrage (stat arb) is a quantitative trading strategy that exploit
 
 PCA is very relevant to this area of trading. The top components often align with intuitive factors (e.g., market beta, sector risk), while lower-ranked ones can reveal idiosyncratic or mean-reverting behaviors. In trading, these "eigenportfolios" serve as bases for constructing statistical arbitrage strategies, risk premia decomposition, or noise filtering, enabling factor-driven portfolio design and alpha isolation.
 
+![Stat arb plot](resources/statarb.png)
+
 ### Cross-Exchange Arbitrage 
 
 Cross-exchange arbitrage leverages price discrepancies for the same asset across multiple trading venues, aiming to buy low on one exchange and simultaneously sell high on another. When targeting sub-second opportunities, latency becomes the critical constraint—strategies must account for network delays, order placement speeds, and slippage. Profitability hinges on minimizing round-trip execution time relative to the price convergence window, often necessitating colocated servers, low-latency infrastructure, and predictive models to front-run temporary divergences before they close. Evaluating trade viability under latency constraints involves modeling expected spreads net of fees, execution lag, and adverse selection.
